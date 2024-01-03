@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>About</title>
+</head>
+<body>
+    <h1><i>Cube Escape</i></h1>
+
+    <h2>I. High Concept</h2>
+    <p>You avoid or shoot enemies while maneuvering around a 2d platforming level to get to the exit. Think Cuphead run and gun levels, but on a single screen.</p>
+
+    <hr>
+
+    <h2>II. Genres</h2>
+    <p>Platformer, Shooter</p>
+
+    <hr>
+
+    <h2>III. Platform</h2>
+    <p>Desktop only</p>
+
+    <hr>
+
+    <h2>IV. Story</h2>
+    <p>The player square is being chased down by enemy squares, and must escape before being killed. The player aims to get to the end of the level while defeating the enemies.</p>
+
+    <hr>
+
+    <h2>V. Esthetics</h2>
+    <ul>
+        <li>Graphics: Abstract</li>
+        <li>Sound: 8-bit</li>
+        <li>Types of Sound: background song and sound effects for things like jumping, shooting, and being hit.</li>
+    </ul>
+
+    <hr>
+
+    <h2>VI. Gameplay</h2>
+    <h3>Mechanics</h3>
+    <p>The player can jump, shoot and move the character.</p>
+
+    <h3>Control</h3>
+    <p>The player will use the mouse to determine whether the character will shoot left or right, depending on what side of the character the mouse is on.<br>
+    The player will click the left mouse button to shoot.<br>
+    The player can tap the spacebar to jump.<br>
+    The player can use A/D or the left and right arrow keys to move around the level.</p>
+
+    <h3>Teaching the Game</h3>
+    <p>There will be a tutorial screen once the user clicks the start button that tells them what each button does, and there will be a section early on where the player <br>has to shoot both left and right in order to progress in order to teach them that they can shoot in multiple directions.</p>
+
+    <h3>Player Learning</h3>
+    <p>The player will need to learn to shoot in multiple directions in order to beat the game.</p>
+
+    <hr>
+
+    <h2>VII. Screenshots</h2>
+    <img src="images/mockup-1.png" alt="">
+    <br>
+    <img src="images/mockup-2.png" alt="">
+
+    <hr>
+
+    <h2>VIII. About the Developer</h2>
+    <p>Joseph Davidson, 2nd year GDD Major</p>
+    <p>Skills: Programming</p>
+
+    <h1>Documentation</h1>
+
+    <h2>Sound Effects Used</h2>
+    <ul>
+        <li><a href="https://freesound.org/people/jeremysykes/sounds/344501/">Jump</a></li>
+        <li><a href="https://freesound.org/people/MATRIXXX_/sounds/414888/">Shoot</a></li>
+        <li><a href="https://freesound.org/people/MATRIXXX_/sounds/441373/">Death</a></li>
+        <li><a href="https://freesound.org/people/sonically_sound/sounds/624878/">Level Clear</a></li>
+        <li><a href="https://freesound.org/people/chripei/sounds/165492/">Beat the game</a></li>
+    </ul>
+
+    <h2>Process</h2>
+    <p>First, I decided to make the method to handle collision between the player and platforms. I used what I had remembered from last year,
+        <br>where I made a rectangle that represented the area of collision between the two. If the width of this rectangle was larger than the 
+        <br>height, then that meant the collision was happening vertically, and if the y value of the player was smaller than the platforms, I 
+        <br>pushed them up by the height of the rectangle, and pushed them down otherwise. It worked the same way for horizontal collisions, with
+        <br>height and width swapped. I had to find this collision rectangle by comparing the minimum and maximum x and y values of the player 
+        <br>and the platform. I used the larger minimums, and the smaller maximums for this. Then, I found their widths and heights by subtracting 
+        <br>the minimums from the maximums.</p>
+
+    <p>Next, I made each of the classes: The player, the platforms, the enemies, the exit, and the bullets. I had to edit each of these throughout 
+        <br>the project, but I'll explain everything about them here for simplicities sake. I gave the player three extra variables, those being dx, 
+        <br>dy, and grounded. The dx and dy values representing the rate of change of the player's x and y movement, and grounded representing whether 
+        <br>or not the player has jumped or not. They also have a move method that moves them by their dx and dy multiplied by the change in time. Each 
+        <br>time the method was called, I added the dt value multiplied by 750 to the dy valueto simulate gravity increasing the player's velocity. 
+        <br>To the collision method, I added to the vertical collisions by resetting the player's dy value and, if the player was collided with the
+        <br>platform from above, I set their grounded variable back to true. After that, I made the platform, which doesn't have any spcial variables,
+        <br>but the x, y, width, and height of it can be set in the constructor. The enemy and exit classes are pretty much the same, the only 
+        <br>differences being their color and the fact that the enemy's x and y values can be set in the constructor. The bullets only have a move method 
+        <br>that moves it by its dx value multipled by dt.</p>
+
+    <p>After that, I started to get working on the scenes. At first, I had planned to have 5 different level scenes, but I realized that it would be easier
+        <br>to just have 1 that would be changed I started by initializing all of th variables. Then, I made all of the labels and buttons for the scene. Next,
+        <br>I made a simple level with just four platforms, the player, an enemy, and the exit to start testing in. I started off by checking for collision between 
+        <br>the player and the platforms. Then, I added the jump and movement for the player, with the jump setting the player's dy to -600, and setting their grounded 
+        <br>variable to false. Left and right movement set the player's dx to -200 and 200 respectively. Then I added the shoot method, and afterwards, I started 
+        <br>adding collision between the player and the enemies and exit, and between the bullets and the enemies and platforms. The player colliding with an enemy
+        <br>ends the game and colliding with the exit sends them to the next level. The bullet colliding with the platform gets rid of the bullets and colliding
+        <br>with and enemy does the same thing, but also gets rid of the enemy. Once I had the mechanics in place, I added the sound effects, and then started 
+        <br>making the levels. The first level I wanted to be simple so that the player could learn how to shoot and how to jump, so I placed an enemy under 
+        <br>a wall so that the player had to kill it to progress, and the exit on a ledge so the player had to jump to get to it. The second level, I wanted to 
+        <br>teach the player to shoot left and right, so I put two ledges with enemyies on them, so that the player needs to shoot both left and right to get 
+        <br>to the exit. For the third level, I wanted to make the player use the FEATURE (not a bug) where, if you walk off a ledge without jumping, you can 
+        <br>jump midair in order to get to the exit. I did this by placing high ceilings, and a death pit, so that the player would need to drop down slightly, 
+        <br>then jump to get to the exit. The last two levels, I just wanted the player to platform and shoot their way to the exit.</p>
+
+    <p>Finally, I just did a bit of cleanup, and after getting feedback, I decided to move the insturctions from their own scene into just being HTML text, and also
+        <br>changing the dx and dy values to what they are now.</p>
+
+    <h2>Requirements</h2>
+
+    <h3>A. Funtional</h3>
+    <ul>
+        <li>I used PIXI as my underlying graphics engine</li>
+        <li>It is a rather simple game with simple controls that are all listed on the instructions screen</li>
+        <li>I implmented collision between platorms and the player, added a function similar to gravity, and made multiple, unique levels, 
+            <br>which go beyond the in-class examples.</li>
+        <li>I have no JavaScript errors</li>
+    </ul>
+    <h3>B. Design & Interaction</h3>
+    <ul>
+        <li>I believe that my graphic design, while very simple, is still fairly pleasing.</li>
+        <li>I do not believe that I have any widgets that needed to be labeled.</li>
+        <li>The controls are clearly labeled on the instructions screen.</li>
+        <li>The game itself is rather small, so it will work well on smaller displays.</li>
+    </ul>
+
+    <h3>C. Media</h3>
+    <ul>
+        <li>The only images I used are the mockup screenshots, which are properly sized on this page.</li>
+        <li>I have sound effects for jumping, shooting, player and enemy deaths, clearing a stage, and beating the game.</li>
+        <li>All of the font, graphics, spitesheets, and sounds used were not provided by in-class examples.</li>
+    </ul>
+
+    <h3>D. HTML/CSS</h3>
+    <ul>
+        <li>The little HTML I had validated, and I had no CSS.</li>
+    </ul>
+
+    <h3>E. Code Conventions</h3>
+    <ul>
+        <li>I made 5 different classes.</li>
+        <li>I only used let and const, no var.</li>
+        <li>I did not need any DOM traversal.</li>
+        <li>I did not repeat myself, and put repeated blocks in functions.</li>
+        <li>I had the classes, utilities, keys, and main JavaScript files separate.</li>
+        <li>All variable and functions names start with a lowercase letter.</li>
+        <li>All of my functions are commented and notable sections are also commented.</li>
+        <li>I have no console.log() calls.</li>
+    </ul>
+</body>
+</html>
