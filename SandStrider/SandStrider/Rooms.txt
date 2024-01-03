@@ -1,0 +1,42 @@
+// Legend
+
+// - Top Wall       _ Bottom Wall        [ Left Wall        ] Right Wall
+// o Floor One      O Floor Two          a Floor Three      A Floor Four
+
+// Room 1
+
+x------oo------x
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+oooooooooooooooo
+oooooooooooooooo
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+x______oo______x
+
+// Room Template
+
+x------oo------x
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+oooooooooooooooo
+oooooooooooooooo
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+[oooooooooooooo]
+x______oo______x

@@ -1,0 +1,41 @@
+// Herbs [+5 to Max Health]
+0
+
+// Quivers [+1 to Attack Damage]
+0
+
+// Rings [-0.1 Seconds to Attack Cooldown; Max = 10]
+0
+
+// Necklaces [+1 to Player Movement Speed; Max = 5]
+0
+
+// Bracers [+0.1x to Critical Damage Multiplier; Max = 35]
+0
+
+// Feathers [+1 to Arrow Movement Speed; Max = 10]
+0
+
+// LeatherArmor [+5% to Dodge Chance; Max = 15]
+0
+
+// IronArmor [+5% to Damage Reduction; Max = 15]
+0
+
+// RoomCount [Difficulty Scaling]
+0
+
+// CointCount []
+0
+
+// Bolts [+1 to Arrows Fired per Attack; Max 7]
+0
+
+// SwordUnlocked [Unlocks Melee Attack with 'e'; Max 1]
+0
+
+// AnkhUnlocked [Prevents Death if Soul Bar is Full; Max 1]
+0
+
+// BookUnlocked [Teleports Player to Recent Shop with 't'; Max 1]
+0

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/01coin.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/ankh.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/armGuard.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/arrow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bannerWallOne.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bannerWallTwo.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/book.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/boots.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bottomLeftCorner.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bottomLeftPassage.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bottomRightCorner.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bottomRightPassage.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bottomWallOne.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bottomWallTwo.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/bow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/button outline.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/button_outline_selected.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/camel.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/candlesObstacle.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/checkmark.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/chest.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/coin.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/crackedWallOne.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/crackedWallTwo.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/crossbow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/debris.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/desertBackground.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/desertBackgroundEnd.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/doorExplosion.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/emptyTile.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/enemyDeath.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/feather.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/floorFour.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/floorOne.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/floorThree.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/floorTwo.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health0.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health10.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health100.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health20.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health30.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health40.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health50.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health60.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health70.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health80.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/health90.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/herb.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/ironArmor.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/ladder.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/leatherArmor.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/leftCornerShadow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/leftShadow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/leftShadowAlt.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/leftWall.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/Load.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/middleShadow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/midWall.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/Mummy Sprite Sheet.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/necklacePickup.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/pillarLower.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/pillarUpper.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/pitObstacle.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/plantPickup.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/play.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/PlayerAnimations.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/playerBackground.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/playerBackgroundEmpty.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/pointer.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/potion_green.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/potion_red.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/potion_yellow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/potionPickup.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/powerArrow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/projectile.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/quiver.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/redX.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/rightCornerShadow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/rightWall.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/ringPickup.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/Sand Strider Logo.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/sandBottomLeft.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/sandBottomMid.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/sandBottomRight.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/sandTopLeft.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/sandTopMid.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/sandTopRight.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/shopRock.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul10.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul100.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul20.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul30.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul40.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul50.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul60.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul70.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul80.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/soul90.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/stairsObstacle.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/sunWall.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/swordPickup.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/TempFont.spritefont</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/thermometer_transparent_offset_four.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/thermometer_transparent_offset_three.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/thermometer_transparent_offset_two.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/thermometer_transparent.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topLeftCorner.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topLeftPassage.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topLeftShadow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topRightCorner.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topRightPassage.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topShadow.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topShadowAlt.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topWallOne.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topWallThree.png</File>
+    <File>C:/Users/josep/source/repos/Group-5-Project---106/SandStrider/Content/topWallTwo.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

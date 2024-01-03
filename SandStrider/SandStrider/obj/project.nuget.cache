@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "f3JV3igHJwh0xE8M33VE1YIsMWd18OPnfwiSL5k9ev9I2X0//5mQz6XeMNjzwOwk5N3QKyZqqdf/G6GXvddbVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josep\\source\\repos\\Group-5-Project---106\\SandStrider\\SandStrider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josep\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
